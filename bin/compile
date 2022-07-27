@@ -13,8 +13,7 @@ if [ -f $ENV_DIR/PROJECT_PATH ]; then
 	if [ -d $BUILD_DIR/$PROJECT_PATH ]; then
 		echo "-----> Subdir buildpack in $PROJECT_PATH"
 		echo "       creating cache: $CACHE_DIR"
-		cd client
-		npm install
+		ls
 #		mkdir -p $CACHE_DIR
 #		TMP_DIR=`mktemp -d $CACHE_DIR/subdirXXXXX`
 #		echo "       created tmp dir: $TMP_DIR"
